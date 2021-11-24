@@ -11,6 +11,11 @@
 		0ECDA6F127170C6900AC437A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA6F027170C6900AC437A /* ContentView.swift */; };
 		0ECDA6F327170C6C00AC437A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECDA6F227170C6C00AC437A /* Assets.xcassets */; };
 		0ECDA6F627170C6C00AC437A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ECDA6F527170C6C00AC437A /* Preview Assets.xcassets */; };
+		0ECDA6FE27170CEE00AC437A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA6FD27170CEE00AC437A /* SettingView.swift */; };
+		0ECDA704271710FE00AC437A /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA703271710FE00AC437A /* ScreenView.swift */; };
+		0ECDA7062717113500AC437A /* CrazyGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA7052717113500AC437A /* CrazyGame.swift */; };
+		0ECDA70A2717125200AC437A /* ScreensView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA7092717125200AC437A /* ScreensView.swift */; };
+		0ECDA70C271712C100AC437A /* Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECDA70B271712C100AC437A /* Screen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		0ECDA6F227170C6C00AC437A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0ECDA6F527170C6C00AC437A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0ECDA6F727170C6C00AC437A /* Crazy8Visualizer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Crazy8Visualizer.entitlements; sourceTree = "<group>"; };
+		0ECDA6FD27170CEE00AC437A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		0ECDA703271710FE00AC437A /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		0ECDA7052717113500AC437A /* CrazyGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrazyGame.swift; sourceTree = "<group>"; };
+		0ECDA7092717125200AC437A /* ScreensView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensView.swift; sourceTree = "<group>"; };
+		0ECDA70B271712C100AC437A /* Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +62,9 @@
 		0ECDA6ED27170C6900AC437A /* Crazy8Visualizer */ = {
 			isa = PBXGroup;
 			children = (
+				0ECDA7052717113500AC437A /* CrazyGame.swift */,
+				0ECDA702271710EE00AC437A /* Screen */,
+				0ECDA6FF27170CF500AC437A /* Setting */,
 				0ECDA6EE27170C6900AC437A /* Crazy8VisualizerApp.swift */,
 				0ECDA6F027170C6900AC437A /* ContentView.swift */,
 				0ECDA6F227170C6C00AC437A /* Assets.xcassets */,
@@ -67,6 +80,24 @@
 				0ECDA6F527170C6C00AC437A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0ECDA6FF27170CF500AC437A /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				0ECDA6FD27170CEE00AC437A /* SettingView.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		0ECDA702271710EE00AC437A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0ECDA703271710FE00AC437A /* ScreenView.swift */,
+				0ECDA7092717125200AC437A /* ScreensView.swift */,
+				0ECDA70B271712C100AC437A /* Screen.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ECDA70C271712C100AC437A /* Screen.swift in Sources */,
+				0ECDA6FE27170CEE00AC437A /* SettingView.swift in Sources */,
+				0ECDA7062717113500AC437A /* CrazyGame.swift in Sources */,
+				0ECDA70A2717125200AC437A /* ScreensView.swift in Sources */,
 				0ECDA6F127170C6900AC437A /* ContentView.swift in Sources */,
+				0ECDA704271710FE00AC437A /* ScreenView.swift in Sources */,
 				0ECDA6EF27170C6900AC437A /* Crazy8VisualizerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
